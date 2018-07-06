@@ -16,6 +16,8 @@ xchange = ccxt.binance({
 })
 ```
 
+3) Define the variables `symbol_base` and `symbol_target` to specify the base and target cryptocurrency. The bot will then play ping pong between these two currencies trying to buy the target currency at the lower spectrum of the spread and sell it at the higher spectrum of the spread. 
+
 3) Adapt the trading algorithm of the bot to your needs (e.g. parameters, cryptocurrencies, etc.). The given implementation is only an example algorithm. Of course, we do not guarantee any performance of this bot. USE THE BOT AT YOUR OWN RISK and start with a small amount in your account for testing. 
 
 4) Only then, run the script.
